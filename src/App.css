@@ -497,9 +497,7 @@ h2 {
   .skills-section--heading {
     font-size: 54px;
     line-height: 70px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+
   }
   .skills--section--container {
     gap: 16px;
