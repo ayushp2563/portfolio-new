@@ -1,0 +1,58 @@
+{
+    "skills": [
+        {
+            "id": "1",
+            "src": "./img/product-chain-1.png",
+            "title": "Front-End",
+            "description": "HTML | CSS | JavaScript"
+        },
+        {
+            "id": "2",
+            "src": "./img/tag-1.png",
+            "title": "Back-End",
+            "description": "NodeJS | ExpressJS"
+        },
+        {
+            "id": "3",
+            "src": "./img/feather-pen-2.png",
+            "title": "Database",
+            "description": "Firebase | MySQL | MongoDB"
+        },
+        {
+            "id": "4",
+            "src": "./img/feather-pen-1.png",
+            "title": "Frameworks",
+            "description": "ReactJS | Bootstrap |  Material UI"
+        }
+    ],
+    "portfolio": [
+        {
+            "id": "1",
+            "src": "./img/TODO-List.png",
+            "title": "TODO List",
+            "description": "It is my initial project in React JS. Simple TODO List created with update and delete task feature.",
+            "url": "https://github.com/ayushp2563/TODO-App"
+        },
+        {
+            "id": "2",
+            "src": "./img/restcountries.png",
+            "title": "REST COUNTRIES API",
+            "description": "It shows 4 continent's country information with the help of rest countries API.",
+            "url": "https://github.com/ayushp2563/rest-countries-api"
+        },
+        {
+            "id": "3",
+            "src": "./img/instagram.png",
+            "title": "Instagram Clone",
+            "description": "It is INSTAGRAM's frontend part.Made using React JS to practise advanced skills in React JS.",
+            "url": "https://github.com/ayushp2563/instagram"
+        },
+        {
+            "id": "4",
+            "src": "./img/travellog.png",
+            "title": "TRAVELLOG",
+            "description": "MERN Stack project with login,sign up,hotel checking and booking services",
+            "url": "https://github.com/ayushp2563/travellog"
+        }
+    ]
+}
