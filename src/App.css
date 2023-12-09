@@ -511,7 +511,6 @@ h2 {
   }
   .skills--section--card {
     gap: 28px;
-    width: 75%;
   }
   .skills--section--card--content {
     gap: 20px;  
@@ -527,8 +526,17 @@ h2 {
 }
 
 @media only screen and (max-width: 1200px) {
-  .btn-outline-primary {
-    display: none;
+  .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 55px;
   }
   .hero--section {
     display: flex;
@@ -536,10 +544,13 @@ h2 {
     padding-bottom: 70px;
   }
   .hero--section--title,
-  .hero--section-description,
-  .footer--content {
+  .hero--section-description{
     text-align: justify;
-    width: 100%;
+    width: 125%;
+  }
+
+  .footer--content {
+    text-align: center;
   }
   .skills--section--container,
   .about--section,
@@ -551,6 +562,10 @@ h2 {
     display: flex;
     flex-direction: column;
     text-align: justify;
+  }
+  .portfolio--section{
+    padding: 100px 25px;
+    padding-right: 2px;
   }
   .skills--section,
   .portfolio--container,
@@ -580,7 +595,12 @@ h2 {
   .testimonial--section--card {
     padding: 25px;
   }
-  .hero--section--title,
+  .hero--section--title{
+    font-size: 35px;
+    line-height: 40px;
+    text-align: start;
+    padding-left: 40px;
+  }
   .skills--section--heading,
   .sections--heading {
     font-size: 35px;
