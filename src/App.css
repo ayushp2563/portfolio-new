@@ -38,7 +38,7 @@ p {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
-  border-radius: 10px;
+  border-radius: 50px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
@@ -54,7 +54,7 @@ p {
   background-color: var(--primary);
   border: 2px solid var(--primary);
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .btn-outline-primary:hover {
   color: var(--primary);
@@ -65,7 +65,7 @@ p {
   background-color: var(--primary);
   border: 2px solid var(--primary);
   margin-top: 10px;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 .btn-primary:hover {
   color: var(--primary);
@@ -75,6 +75,7 @@ p {
   color: var(--white);
   background-color: var(--github);
   border: var(--github);
+  border-radius: 50px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -274,7 +275,7 @@ h2 {
   align-items: flex-start;
   gap: 32px;
   flex: 1 0 0;
-  border-radius: 10.6px;
+  border-radius: 50px;
   background: lightblue;
   min-height: 250px;
 }
@@ -356,20 +357,17 @@ h2 {
   justify-content: center;
   gap: 42.6px;
   width: 100%;
-  transition: 0.5s all ease-in-out;
 }
 
-.portfolio--section--container :hover {
-  transform: scale(1.02);
-  border-color: #8ecae6;
-}
 .portfolio--section--img {
   border-radius: 8px;
   width: 100%;
 }
 .portfolio--section--img > img {
-  width: 100%;
-  border-radius: 10px;
+  width: 97%;
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .portfolio--section--card {
   display: flex;
@@ -382,7 +380,14 @@ h2 {
   cursor: pointer;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  border-radius: 10px;
+  outline: 2px solid #023047;
+  border-radius: 50px;
+  transition: 0.5s all ease-in-out;
+}
+.portfolio--section--card:hover {
+  transform: scale(1.02);
+  border-color: #023047;
+  border-style: solid;
 }
 .portfolio--section--card--content {
   display: flex;
@@ -419,7 +424,7 @@ h2 {
   gap: 32px;
 }
 
-.contact--section-description{
+.contact--section-description {
   color: var(--darkblue);
   font-size: 17px;
   font-weight: 800;
@@ -513,7 +518,7 @@ h2 {
     gap: 28px;
   }
   .skills--section--card--content {
-    gap: 20px;  
+    gap: 20px;
   }
   .skills--section--title {
     font-size: 23px;
@@ -526,12 +531,12 @@ h2 {
 }
 
 @media only screen and (max-width: 1200px) {
-  .btn{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
-  .btn-primary{
+  .btn-primary {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -543,10 +548,10 @@ h2 {
     flex-direction: column-reverse;
     padding-bottom: 70px;
   }
-  .hero--section--title{
+  .hero--section--title {
     text-align: center;
   }
-  .hero--section-description{
+  .hero--section-description {
     text-align: justify;
   }
 
@@ -564,7 +569,7 @@ h2 {
     flex-direction: column;
     text-align: justify;
   }
-  .portfolio--section{
+  .portfolio--section {
     padding: 100px 25px;
   }
   .skills--section,
@@ -595,7 +600,7 @@ h2 {
   .testimonial--section--card {
     padding: 25px;
   }
-  .hero--section--title{
+  .hero--section--title {
     font-size: 35px;
     line-height: 40px;
     text-align: start;
@@ -622,16 +627,16 @@ h2 {
   .divider {
     margin: 20px;
   }
-  .contact--section-heading{
+  .contact--section-heading {
     font-size: 35px;
     line-height: 40px;
   }
-  .contact--section-description{
-    font-family: 'Manrope', sans-serif;
+  .contact--section-description {
+    font-family: "Manrope", sans-serif;
     color: #1c1e53;
     text-align: justify;
   }
-  .h1{
+  .h1 {
     font-size: 35px;
     line-height: 40px;
   }
