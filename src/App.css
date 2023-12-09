@@ -543,10 +543,11 @@ h2 {
     flex-direction: column-reverse;
     padding-bottom: 70px;
   }
-  .hero--section--title,
+  .hero--section--title{
+    text-align: center;
+  }
   .hero--section-description{
     text-align: justify;
-    width: 125%;
   }
 
   .footer--content {
