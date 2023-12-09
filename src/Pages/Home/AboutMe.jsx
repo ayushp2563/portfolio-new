@@ -6,7 +6,7 @@ export default function AboutMe() {
       </div>
       <div className="hero--section--content--box about--section--box">
         <div className="hero--section--content">
-          <h1 className="skills-section--heading">About Me</h1>
+          <h1 className="skills--section--heading">About Me</h1>
           <p className="hero--section-description">
             I am a budding web developer with a passion for creating beautiful
             and functional websites. I have completed courses in React JS and

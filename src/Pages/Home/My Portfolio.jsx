@@ -6,7 +6,7 @@ export default function MyPortfolio() {
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
         <div className="portfolio--container">
-          <h1 className="skills-section--heading">Projects</h1>
+          <h1 className="skills--section--heading">Projects</h1>
         </div>
         <div>
           <a

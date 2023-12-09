@@ -117,7 +117,6 @@ h2 {
   font-style: normal;
   font-weight: 400;
   line-height: 27px;
-  text-align: justify;
 }
 /* Body 2 */
 .text-md {
@@ -419,6 +418,15 @@ h2 {
   text-align: left;
   gap: 32px;
 }
+
+.contact--section-description{
+  color: var(--darkblue);
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 36px;
+  align-content: baseline;
+  text-align: justify;
+}
 /* Contact End */
 
 /* Footer Start */
@@ -495,16 +503,15 @@ h2 {
 
 @media only screen and (max-width: 1600px) {
   .skills-section--heading {
-    font-size: 54px;
+    font-size: 45px;
     line-height: 70px;
-
   }
   .skills--section--container {
     gap: 16px;
   }
   .skills--section--card {
     gap: 28px;
-    width: 80%;
+    width: 75%;
   }
   .skills--section--card--content {
     gap: 20px;  
@@ -532,6 +539,7 @@ h2 {
   .hero--section-description,
   .footer--content {
     text-align: justify;
+    width: 100%;
   }
   .skills--section--container,
   .about--section,
@@ -555,17 +563,16 @@ h2 {
   }
   .portfolio--section--container {
     gap: 30px;
-    width: 105%;
   }
   .skills--section,
   .testimonial--section,
-  .contact--section,
   .footer--container {
     gap: 20px;
     padding-top: 70px;
     padding-bottom: 70px;
   }
-  .about--section {
+  .about--section,
+  .contact--section {
     gap: 20px;
     padding-top: 0;
     padding-bottom: 0;
@@ -582,9 +589,6 @@ h2 {
   .hero--section--content--box {
     gap: 10px;
   }
-  .contact--form--container {
-    width: 100%;
-  }
   .container {
     display: flex;
     flex-direction: column;
@@ -597,6 +601,19 @@ h2 {
   }
   .divider {
     margin: 20px;
+  }
+  .contact--section-heading{
+    font-size: 35px;
+    line-height: 40px;
+  }
+  .contact--section-description{
+    font-family: 'Manrope', sans-serif;
+    color: #1c1e53;
+    text-align: justify;
+  }
+  .h1{
+    font-size: 35px;
+    line-height: 40px;
   }
 }
 
