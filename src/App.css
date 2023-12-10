@@ -5,8 +5,8 @@ body {
   font-family: "Manrope", sans-serif;
   font-family: "Merriweather", serif;
   font-family: "Poppins", sans-serif;
-  -webkit-font-smoothing: "Roboto", sans-serif;
-  -moz-osx-font-smoothing: "Roboto", sans-serif;
+  -webkit-font-smoothing: "Manrope", sans-serif;
+  -moz-osx-font-smoothing: "Manrope", sans-serif;
   font-style: normal;
 }
 h1,
