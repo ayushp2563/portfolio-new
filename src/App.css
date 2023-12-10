@@ -3,6 +3,8 @@
 body {
   margin: 0;
   font-family: "Manrope", sans-serif;
+  font-family: "Merriweather", serif;
+  font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: "Roboto", sans-serif;
   -moz-osx-font-smoothing: "Roboto", sans-serif;
   font-style: normal;
@@ -169,6 +171,8 @@ h2 {
   top: 0;
   left: 0;
   right: 0;
+  background: transparent;
+  backdrop-filter: blur(10px);
 }
 .navbar--items > ul {
   list-style: none;
