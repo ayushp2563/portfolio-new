@@ -35,7 +35,7 @@ function Navbar() {
   return (
     <nav className={`navbar ${navActive ? "active" : ""}`}>
       <div>
-       <h3>Ayush Prajapati</h3>
+        <h3>Ayush Prajapati</h3>
       </div>
       <a
         className={`nav__hamburger ${navActive ? "active" : ""}`}
@@ -53,8 +53,8 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
+              offset={-50}
+              duration={800}
               to="heroSection"
               className="navbar--content"
             >
@@ -67,8 +67,8 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
+              offset={-50}
+              duration={800}
               to="AboutMe"
               className="navbar--content"
             >
@@ -81,11 +81,11 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
+              offset={-50}
+              duration={800}
               to="myskills"
               className="navbar--content"
-            > 
+            >
               Skills
             </Link>
           </li>
@@ -95,8 +95,8 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
+              offset={-50}
+              duration={800}
               to="MyPortfolio"
               className="navbar--content"
             >
@@ -109,12 +109,12 @@ function Navbar() {
               activeClass="navbar--active-content"
               spy={true}
               smooth={true}
-              offset={-70}
-              duration={500}
+              offset={-50}
+              duration={800}
               to="Contact"
               className="navbar--content"
             >
-              Contact 
+              Contact
             </Link>
           </li>
         </ul>
