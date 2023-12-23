@@ -173,6 +173,7 @@ h2 {
   right: 0;
   background: transparent;
   backdrop-filter: blur(10px);
+  z-index: 10;
 }
 .navbar--items > ul {
   list-style: none;
@@ -189,7 +190,7 @@ h2 {
   color: var(--darkblue);
   font-size: 16px;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 800;
   line-height: 10%;
   cursor: pointer;
 }

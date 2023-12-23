@@ -1,6 +1,6 @@
 export default function ContactMe() {
   return (
-    <section id="Contact" className="contact--section">
+    <section id="Contact" className="contact--section" data-aos="fade-right">
       <div>
         <h1 className="skills--section--heading">Contact Me</h1>
         <br />

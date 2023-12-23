@@ -1,7 +1,10 @@
 import { Link } from "react-router-dom";
 import data from "../../data/index.json";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 export default function MyPortfolio() {
+  AOS.init();
   return (
     <section className="portfolio--section" id="MyPortfolio">
       <div className="portfolio--container-box">
@@ -35,7 +38,11 @@ export default function MyPortfolio() {
           </a>
         </div>
       </div>
-      <div className="portfolio--section--container">
+      <div
+        className="portfolio--section--container"
+        data-aos="fade-up"
+        data-aos-duration="3000"
+      >
         {data?.portfolio?.map((item, index) => (
           <div key={index} className="portfolio--section--card">
             <div className="portfolio--section--img">
@@ -47,30 +54,30 @@ export default function MyPortfolio() {
                 <p className="text-md">{item.description}</p>
               </div>
               <p className="text-sm portfolio--link">
-              <button className="btn btn-outline-primary">
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  style={{ textDecoration: "none", color:'ffb703'}}
-                >
-                  Visit Link
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 20 19"
-                    fill="none"
+                <button className="btn btn-outline-primary">
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{ textDecoration: "none", color: "ffb703" }}
                   >
-                    <path
-                      d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
-                      stroke="currentColor"
-                      stroke-width="2.66667"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                    />
-                  </svg>
-                </a>
+                    Visit Link
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      viewBox="0 0 20 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
+                        stroke="currentColor"
+                        stroke-width="2.66667"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
                 </button>
               </p>
             </div>
