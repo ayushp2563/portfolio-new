@@ -194,9 +194,15 @@ h2 {
   line-height: 10%;
   cursor: pointer;
 }
+
+.navbar--content:hover {
+  text-decoration: underline;
+}
+
 .navbar--active-content {
   color: var(--primary);
 }
+
 /* Navbar Styler Ends */
 
 /* Hero Section Style */
