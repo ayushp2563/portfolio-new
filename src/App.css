@@ -162,19 +162,22 @@ h2 {
 /* Navbar Style Start */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 15px 150.333px;
-  background: var(--white);
-  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.189);
+  padding: 15px 70px 15px 70px;
+  background-color: whitesmoke transparent transparent;
+  box-shadow: 0px 5.333px 80px 0 rgba(0, 0, 0, 0.35);
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  background: transparent;
   backdrop-filter: blur(5px);
   z-index: 10;
+  margin: 35px auto 0; /* Center the navbar horizontally */
+  border-radius: 50px; /* Adjust the radius as needed */
+  max-width: fit-content;
 }
+
 .navbar--items > ul {
   list-style: none;
   display: flex;
@@ -196,9 +199,9 @@ h2 {
 }
 
 .navbar--content:hover {
-  border-left-width: 2px;
+  border-left-width: 1px;
   border-left-style: solid;
-  border-right-width: 2px;
+  border-right-width: 1px;
   border-right-style: solid;
   border-top-width: 2px;
   border-top-style: solid;
@@ -459,7 +462,7 @@ h2 {
 /* Footer Starts */
 .footer--container {
   display: flex;
-  padding: 106.667px 85.333px;
+  padding: 25.667px 85.333px;
   flex-direction: column;
   align-items: flex-start;
   background: var(--bg-shade);
@@ -699,7 +702,7 @@ h2 {
     align-items: center;
     justify-content: center;
     background-color: rgba(255, 255, 255);
-    top: -22rem;
+    top: -60rem;
     left: 0;
     width: 100%;
     transition: all ease-in-out 0.4s;
