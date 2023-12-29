@@ -17,7 +17,7 @@ function Footer() {
                 offset={-50}
                 duration={500}
                 to="heroSection"
-                className="text-md"
+                className="navbar--content"
               >
                 Home
               </Link>
@@ -30,24 +30,24 @@ function Footer() {
                 offset={-70}
                 duration={500}
                 to="AboutMe"
-                className="text-md"
+                className="navbar--content"
               >
                 About Me
               </Link>
             </li>
             <li>
-            <Link
-              activeClass="navbar--active-content"
-              spy={true}
-              smooth={true}
-              offset={-70}
-              duration={500}
-              to="myskills"
-              className="navbar--content"
-            >
-              Skills
-            </Link>
-          </li>
+              <Link
+                activeClass="navbar--active-content"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+                to="myskills"
+                className="navbar--content"
+              >
+                Skills
+              </Link>
+            </li>
             <li>
               <Link
                 activeClass="navbar--active-content"
@@ -75,7 +75,7 @@ function Footer() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
-                  height="32"
+                  height="23"
                   viewBox="0 0 33 33"
                   fill="none"
                 >
@@ -96,7 +96,7 @@ function Footer() {
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="32"
-                  height="32"
+                  height="23"
                   viewBox="0 0 33 33"
                   fill="none"
                 >
