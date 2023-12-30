@@ -739,7 +739,7 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg-shade);
+    background-color: whitesmoke;
     box-shadow: 0px 2.5px 0px 0px rgba(0, 0, 0, 0.35);
     top: -60rem;
     left: 0;
