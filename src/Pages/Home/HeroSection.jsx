@@ -10,7 +10,7 @@ export default function HeroSection() {
             Developer
           </h1>
           <p className="hero--section-description">
-            I design and build websites that look good, and work well.
+            I design and build websites that look good and work well.
           </p>
         </div>
         <a
