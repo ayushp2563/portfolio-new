@@ -1,26 +1,32 @@
+import React from "react";
 import { Link } from "react-router-dom";
 import data from "../../data/index.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 export default function MyPortfolio() {
-  AOS.init();
+  React.useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <section className="portfolio--section" id="MyPortfolio">
-      <div className="portfolio--container-box">
-        <div className="portfolio--container">
-          <h1 className="skills--section--heading">Projects</h1>
+    <section className="px-4 md:px-28 py-20 md:py-28" id="MyPortfolio">
+      <div className="flex flex-col md:flex-row justify-between  mb-16">
+        <div className="mb-8 md:mb-0">
+          <h1 className="text-4xl md:text-5xl font-bold text-gray-800 dark:text-white text-start">
+            Projects
+          </h1>
         </div>
         <div>
           <a
             href="https://github.com/ayushp2563"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ textDecoration: "none" }}
+            className="text-decoration-none"
           >
-            <button className="btn btn-github">
+            <button className="flex items-center gap-4 px-6 py-3 bg-primary  rounded-2xl shadow-md  text-white transition-colors duration-300">
               <svg
-                height={50}
+                height={30}
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 16 16"
                 id="github"
@@ -33,27 +39,38 @@ export default function MyPortfolio() {
         </div>
       </div>
       <div
-        className="portfolio--section--container"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
         data-aos="fade-up"
         data-aos-duration="3000"
       >
         {data?.portfolio?.map((item, index) => (
-          <div key={index} className="portfolio--section--card">
+          <div
+            key={index}
+            className="bg-[#e2e8f0] dark:bg-[#242424] elevation-10 rounded-2xl border-gray-700  overflow-hidden transition-transform duration-300 hover:scale-105"
+          >
             <div className="portfolio--section--img">
-              <img src={item.src} alt="Placeholder" />
+              <img
+                src={item.src}
+                alt={item.title}
+                className="w-full h-auto p-4 "
+              />
             </div>
-            <div className="portfolio--section--card--content">
+            <div className="p-6">
               <div>
-                <h3 className="portfolio--section--title">{item.title}</h3>
-                <p className="text-md">{item.description}</p>
+                <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
+                  {item.title}
+                </h3>
+                <p className="text-md text-black  dark:text-white ">
+                  {item.description}
+                </p>
               </div>
-              <p className="text-sm portfolio--link">
-                <button className="btn btn-outline-primary">
+              <p className="text-sm mt-4">
+                <button className="bg-primary text-white hover:bg-primary-dark rounded-full px-6 py-3 transition-colors duration-300">
                   <a
                     href={item.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    style={{ textDecoration: "none", color: "ffb703" }}
+                    className="flex items-center gap-2 font-semibold"
                   >
                     Visit Link
                     <svg
@@ -66,9 +83,9 @@ export default function MyPortfolio() {
                       <path
                         d="M4.66667 1.66675H18V15.0001M18 1.66675L2 17.6667L18 1.66675Z"
                         stroke="currentColor"
-                        stroke-width="2.66667"
-                        stroke-linecap="round"
-                        stroke-linejoin="round"
+                        strokeWidth="2.66667"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
                       />
                     </svg>
                   </a>

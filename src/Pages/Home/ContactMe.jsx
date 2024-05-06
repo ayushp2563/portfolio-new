@@ -1,19 +1,28 @@
 export default function ContactMe() {
   return (
-    <section id="Contact" className="contact--section" data-aos="fade-right">
-      <div>
-        <h1 className="skills--section--heading">Contact Me</h1>
+    <section
+      id="Contact"
+      className="py-60 md:py-36 px-4 md:px-28"
+      data-aos="fade-right"
+    >
+      <div
+        className="text-start
+      "
+      >
+        <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white mb-6">
+          Contact Me
+        </h1>
         <br />
-        <p className="contact--section-description">
+        <p className="text-lg md:text-xl text-gray-300 mb-6">
           I'm currently available to get involved in new projects, so get in
           touch if you'd like to work together.
         </p>
         <br />
-        <p className="contact--section-description">
+        <p className="text-lg md:text-xl text-gray-300">
           Email me at{" "}
           <a
             href="mailto:ayushprajapati2563@gmail.com"
-            style={{ color: "red" }}
+            className="text-red-500 text-primary transition-colors duration-300 underline"
           >
             ayushprajapati2563@gmail.com
           </a>{" "}

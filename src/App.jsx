@@ -1,9 +1,10 @@
-import "./App.css";
+import "./index.css";
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./Pages/Home/HomeScreen";
 import Navbar from "./Pages/Home/Navbar";
 import HeroSection from "./Pages/Home/HeroSection";
+import Darkmode from "./Pages/Darkmode";
 
 function App() {
   return (
