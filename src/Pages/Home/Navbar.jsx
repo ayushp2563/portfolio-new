@@ -62,7 +62,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-[#ffb703]"
+                activeClass="text-primary dark:text-primary"
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -76,7 +76,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-[#ffb703]"
+                activeClass="text-primary dark:text-primary"
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -90,7 +90,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-[#ffb703]"
+                activeClass="text-primary dark:text-primary "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -104,7 +104,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-[#ffb703]"
+                activeClass="text-primary dark:text-primary"
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -118,7 +118,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-[#ffb703]"
+                activeClass="text-primary dark:text-primary"
                 spy={true}
                 smooth={true}
                 offset={-50}
