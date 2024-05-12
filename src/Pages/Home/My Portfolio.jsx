@@ -39,14 +39,14 @@ export default function MyPortfolio() {
         </div>
       </div>
       <div
-        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 "
         data-aos="fade-up"
         data-aos-duration="3000"
       >
         {data?.portfolio?.map((item, index) => (
           <div
             key={index}
-            className="bg-[#e2e8f0] dark:bg-[#242424] elevation-10 rounded-2xl border-gray-700  overflow-hidden transition-transform duration-300 hover:scale-105"
+            className="sticky top-40 bg-[#e2e8f0] dark:bg-[#242424] dark:elevation-10 rounded-2xl border-gray-700  overflow-hidden transition-transform duration-300 hover:scale-105"
           >
             <div className="portfolio--section--img">
               <img

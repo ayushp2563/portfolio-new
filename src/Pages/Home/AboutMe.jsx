@@ -46,7 +46,7 @@ export default function AboutMe() {
         <img
           src="./img/about-me.png"
           alt="About Me"
-          className="w-full rounded-lg shadow-lg"
+          className="w-full rounded-lg"
         />
       </div>
       <div

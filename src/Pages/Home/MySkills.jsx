@@ -23,7 +23,7 @@ export default function MySkills() {
         {data?.skills?.map((item, index) => (
           <div
             key={index}
-            className="bg-[#e2e8f0] dark:bg-[#242424] elevation-10 rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-105 z-10"
+            className="bg-[#e2e8f0] dark:bg-[#242424] dark:elevation-10 rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-105 z-10"
           >
             <div className="flex justify-center items-center p-6">
               <img src={item.src} alt={item.title} className="w-20 h-20" />

@@ -54,7 +54,7 @@ function Navbar() {
           </div>
         </div>
         <div
-          className={`md:flex md:items-center md:justify-between md:gap-12 ${
+          className={`md:flex md:items-center md:justify-between md:gap-12  ${
             navActive ? "active" : "hidden"
           }`}
         >
@@ -62,7 +62,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-primary"
+                activeClass="dark:text-primary text-primary "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -76,7 +76,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-primary"
+                activeClass="dark:text-primary text-primary "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -90,7 +90,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-primary "
+                activeClass="dark:text-primary text-primary  "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -104,7 +104,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-primary"
+                activeClass="dark:text-primary text-primary "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -118,7 +118,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="text-primary dark:text-primary"
+                activeClass="dark:text-primary text-primary "
                 spy={true}
                 smooth={true}
                 offset={-50}
