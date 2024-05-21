@@ -40,13 +40,13 @@ export default function AboutMe() {
   return (
     <section
       id="AboutMe"
-      className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-28 py-20 md:py-32 px-4 md:px-28 items-center"
+      className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-28 py-10 md:py-32 px-4 md:px-28 items-center bg-[#e2e8f0] dark:bg-[#2b2b2cbf] backdrop-blur-sm sm:rounded-full rounded-3xl mx-4"
     >
       <div data-aos="fade-right" className="md:order-1">
         <img
           src="./img/about-me.png"
           alt="About Me"
-          className="w-full rounded-lg"
+          className="w-full rounded-full"
         />
       </div>
       <div

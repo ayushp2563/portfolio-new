@@ -3,6 +3,8 @@ import data from "../../data/index.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
+const colors = ["#ef476f", "#ffd166", "#06d6a0", "#118ab2", "#073b4c"];
+
 export default function MySkills() {
   React.useEffect(() => {
     AOS.init();
@@ -23,13 +25,14 @@ export default function MySkills() {
         {data?.skills?.map((item, index) => (
           <div
             key={index}
-            className="bg-[#e2e8f0] dark:bg-[#242424] dark:elevation-10 rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-105 z-10"
+            className=" dark:elevation-10 rounded-2xl overflow-hidden transition-transform duration-300 hover:scale-105 z-10"
+            style={{ backgroundColor: colors[index % colors.length] }}
           >
             <div className="flex justify-center items-center p-6">
               <img src={item.src} alt={item.title} className="w-20 h-20" />
             </div>
             <div className="p-6">
-              <h3 className="text-2xl font-bold text-black dark:text-white mb-2">
+              <h3 className="text-2xl font-bold text-black dark:text-[#f8fafc] mb-2">
                 {item.title}
               </h3>
               <p className="text-md text-black dark:text-white">

@@ -24,7 +24,7 @@ export default function MyPortfolio() {
             rel="noopener noreferrer"
             className="text-decoration-none"
           >
-            <button className="flex items-center gap-4 px-6 py-3 bg-primary  rounded-2xl shadow-md  text-white transition-colors duration-300">
+            <button className="flex items-center gap-4 px-6 py-3 bg-primary  rounded-2xl shadow-md  text-white transition-transform duration-300 hover:scale-110">
               <svg
                 height={30}
                 xmlns="http://www.w3.org/2000/svg"
@@ -46,13 +46,13 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div
             key={index}
-            className="sticky top-40 bg-[#e2e8f0] dark:bg-[#242424] dark:elevation-10 rounded-2xl border-gray-700  overflow-hidden transition-transform duration-300 hover:scale-105"
+            className="sticky top-40 bg-[#e2e8f0] dark:bg-[#242424] dark:elevation-10 rounded-2xl border-gray-700  overflow-hidden  "
           >
             <div className="portfolio--section--img">
               <img
                 src={item.src}
                 alt={item.title}
-                className="w-full h-auto p-4 "
+                className="w-full h-auto p-4 transition-transform duration-300 hover:scale-105"
               />
             </div>
             <div className="p-6">
@@ -65,7 +65,7 @@ export default function MyPortfolio() {
                 </p>
               </div>
               <p className="text-sm mt-4">
-                <button className="bg-primary text-white hover:bg-primary-dark rounded-full px-6 py-3 transition-colors duration-300">
+                <button className="bg-primary text-white hover:bg-primary-dark rounded-full px-6 py-3 transition-transform duration-300 hover:scale-110">
                   <a
                     href={item.url}
                     target="_blank"
