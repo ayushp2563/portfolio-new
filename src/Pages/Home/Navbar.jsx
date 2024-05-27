@@ -48,13 +48,25 @@ function Navbar() {
             }`}
             onClick={toggleNav}
           >
-            <span className="block h-1 w-6 mb-1  bg-black  dark:bg-white  rounded-2xl transition-all duration-300"></span>
-            <span className="block h-1 w-6 mb-1 bg-black  dark:bg-white  rounded-2xl transition-all duration-300"></span>
-            <span className="block h-1 w-6 bg-black  dark:bg-white  rounded-2xl transition-all duration-300"></span>
+            <span
+              className={`block h-1 w-6 mb-1 bg-black dark:bg-white rounded-2xl transition-transform duration-300 ${
+                navActive ? "transform rotate-45 translate-y-2" : ""
+              }`}
+            ></span>
+            <span
+              className={`block h-1 w-6 mb-1 bg-black dark:bg-white rounded-2xl transition-opacity duration-300 ${
+                navActive ? "opacity-0" : ""
+              }`}
+            ></span>
+            <span
+              className={`block h-1 w-6 bg-black dark:bg-white rounded-2xl transition-transform duration-300 ${
+                navActive ? "transform -rotate-45 -translate-y-2" : ""
+              }`}
+            ></span>
           </div>
         </div>
         <div
-          className={`md:flex md:items-center md:justify-between md:gap-12  ${
+          className={`md:flex md:items-center md:justify-between md:gap-20 transition-transform duration-500  ${
             navActive ? "active" : "hidden"
           }`}
         >
@@ -68,7 +80,7 @@ function Navbar() {
                 offset={-50}
                 duration={800}
                 to="HeroSection"
-                className="block py-2 px-4 md:pl-10 text-black dark:text-white   font-semibold hover:text-primary  dark:hover:text-primary transition-colors duration-300 cursor-pointer"
+                className="block py-2 px-4 md:pl-10 text-black dark:text-white font-semibold hover:text-primary  dark:hover:text-primary transition-colors duration-300 cursor-pointer"
               >
                 Home
               </Link>
@@ -82,7 +94,7 @@ function Navbar() {
                 offset={-50}
                 duration={800}
                 to="AboutMe"
-                className="block py-2 px-4  text-black dark:text-white   font-semibold hover:text-primary  dark:hover:text-primary transition-colors duration-300 cursor-pointer "
+                className="block py-2 px-4  text-black dark:text-white font-semibold hover:text-primary  dark:hover:text-primary transition-colors duration-300 cursor-pointer "
               >
                 About Me
               </Link>
@@ -96,7 +108,7 @@ function Navbar() {
                 offset={-50}
                 duration={800}
                 to="myskills"
-                className="block py-2 px-4 text-black dark:text-white   font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
+                className="block py-2 px-4 text-black dark:text-white font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
               >
                 Skills
               </Link>
@@ -110,7 +122,7 @@ function Navbar() {
                 offset={-50}
                 duration={800}
                 to="MyPortfolio"
-                className="block py-2 px-4 text-black dark:text-white   font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
+                className="block py-2 px-4 text-black dark:text-white font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
               >
                 Projects
               </Link>
@@ -124,7 +136,7 @@ function Navbar() {
                 offset={-50}
                 duration={800}
                 to="Contact"
-                className="block py-2 px-4 text-black dark:text-white   font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
+                className="block py-2 px-4 text-black dark:text-white font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
               >
                 Contact
               </Link>
@@ -136,7 +148,7 @@ function Navbar() {
                 smooth={true}
                 offset={-50}
                 duration={800}
-                className="block  py-2 px-4 text-black dark:text-white  font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
+                className="block  py-2 px-4 text-black dark:text-white font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
               >
                 <Darkmode />
               </Link>
