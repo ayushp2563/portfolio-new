@@ -7,7 +7,7 @@
 
 @layer components {
   body {
-    @apply font-sans bg-white dark:bg-[#121212]  text-[#121212] dark:text-[#94a3b8];
+    @apply font-sans absolute top-0 z-[-2] h-screen w-screen dark:bg-[#121212] dark:bg-[radial-gradient(#ffffff33_1px,#121212_1px)] bg-[size:20px_20px] bg-white bg-[radial-gradient(#d4d4d4_1px,#ffffff_1px)] text-[#121212] dark:text-[#94a3b8];
     @apply transition-colors duration-200;
   }
 }

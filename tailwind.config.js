@@ -14,5 +14,5 @@ export default {
       white: "#ffffff",
     },
   },
-  plugins: [require("tailwindcss-elevation")],
+  plugins: [require("tailwindcss-elevation"), require("tailwindcss-intersect")],
 };

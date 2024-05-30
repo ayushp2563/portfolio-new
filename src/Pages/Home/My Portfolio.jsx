@@ -3,12 +3,13 @@ import { Link } from "react-router-dom";
 import data from "../../data/index.json";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Observer from "tailwindcss-intersect";
 
 export default function MyPortfolio() {
-  React.useEffect(() => {
-    AOS.init();
-  }, []);
-
+  // React.useEffect(() => {
+  //   AOS.init();
+  // }, []);
+  Observer.start();
   return (
     <section className="px-4 md:px-28 py-20 md:py-28" id="MyPortfolio">
       <div className="flex flex-col md:flex-row justify-between  mb-16">
@@ -46,7 +47,7 @@ export default function MyPortfolio() {
         {data?.portfolio?.map((item, index) => (
           <div
             key={index}
-            className="sticky top-40 bg-[#e2e8f0] dark:bg-[#242424] dark:elevation-10 rounded-2xl border-gray-700  overflow-hidden  "
+            className="sticky top-40 bg-[#e2e8f0] dark:bg-[#242424] dark:elevation-10 rounded-2xl  overflow-hidden scale-50 opacity-0 intersect:scale-100 intersect:opacity-100 transition"
           >
             <div className="portfolio--section--img">
               <img

@@ -34,7 +34,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className={`md:flex md:flex-row flex flex-col items-center justify-start fixed top-0 left-0 right-0 z-10 bg-[#e2e8f0] dark:bg-[#2b2b2cbf] backdrop-blur-sm md:rounded-full rounded-2xl mx-auto my-8 max-w-max py-6 px-6 md:px-14 shadow-lg  ${
+        className={`md:flex md:flex-row flex flex-col items-center justify-start fixed top-0 left-0 right-0 z-10 bg-[#f1f5f9ad] dark:bg-[#2b2b2cbf] backdrop-blur-sm md:rounded-full rounded-2xl mx-auto my-8 max-w-max py-6 px-6 md:px-14 shadow-lg  ${
           navActive ? "active" : ""
         }`}
       >
