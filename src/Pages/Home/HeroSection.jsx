@@ -28,7 +28,7 @@ const TypingMachine = ({
   }, [currentIndex, text, speed]);
 
   return (
-    <div className="flex items-center justify-center min-h-22">
+    <div className="flex items-start justify-start min-h-22">
       <motion.div
         className={`font-mono ${fontSize} ${color} ${fontStyle}`}
         initial={{ opacity: 0 }}
@@ -63,7 +63,7 @@ const TypingMachine = ({
 
 const ExampleUsageTypingMachine = () => {
   return (
-    <div className="min-h-22 flex flex-col items-center justify-center space-y-4 text-center">
+    <div className="min-h-22 flex flex-col items-start justify-start space-y-4 text-wrap">
       <TypingMachine
         text="Full Stack Developer"
         speed={70}
