@@ -13,12 +13,12 @@ export default function ContactMe() {
           Contact Me
         </h1>
         <br />
-        <p className="text-lg md:text-xl text-gray-300 mb-6">
+        <p className="text-lg md:text-xl dark:text-white text-black mb-6">
           I'm currently available to get involved in new projects, so get in
           touch if you'd like to work together.
         </p>
         <br />
-        <p className="text-lg md:text-xl text-gray-300">
+        <p className="text-lg md:text-xl  dark:text-white text-black">
           Email me at{" "}
           <a
             href="mailto:ayushprajapati2563@gmail.com"

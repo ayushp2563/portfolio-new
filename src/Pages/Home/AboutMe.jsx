@@ -56,7 +56,7 @@ export default function AboutMe() {
         <h1 className="text-4xl md:text-5xl font-bold text-black dark:text-white">
           About Me
         </h1>
-        <p className="text-lg md:text-xl text-gray-300">
+        <p className="text-lg md:text-xl  text-black dark:text-white">
           I am a budding web developer with a passion for creating beautiful and
           functional websites. I have completed courses in React JS and have
           built a number of personal projects to gain experience in web
