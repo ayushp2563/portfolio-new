@@ -53,6 +53,13 @@
       "title": "TRAVELLOG",
       "description": "It is a travel website where user can select the date, time, and total persons and can check the availability of the hotels. It's a frontend part made with React JS.",
       "url": "https://github.com/ayushp2563/travellog"
+    },
+    {
+      "id": "5",
+      "src": "https://res.cloudinary.com/db4ayioxs/image/upload/v1718697194/uploads/1718697193750-Screenshot%202024-04-28%20152652.png.png",
+      "title": "Image to URL",
+      "description": "It generates URL for images with the help of cloudinary.",
+      "url": "https://imagetoourl.vercel.app/"
     }
   ]
 }
