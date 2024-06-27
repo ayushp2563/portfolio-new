@@ -74,13 +74,13 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="dark:text-primary text-primary "
+                activeClass="scale-125 transition-transform duration-300 "
                 spy={true}
                 smooth={true}
                 offset={-50}
                 duration={800}
                 to="HeroSection"
-                className="block py-2 px-4 md:pl-10 text-black dark:text-white font-semibold hover:text-primary  dark:hover:text-primary transition-colors duration-300 cursor-pointer"
+                className="block py-2 px-4 md:pl-10 text-black dark:text-white font-semibold hover:text-primary dark:hover:text-primary transition-colors duration-300 cursor-pointer"
               >
                 Home
               </Link>
@@ -88,7 +88,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="dark:text-primary text-primary "
+                activeClass="scale-125 transition-transform duration-300 "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -102,7 +102,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="dark:text-primary text-primary  "
+                activeClass="scale-125 transition-transform duration-300  "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -116,7 +116,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="dark:text-primary text-primary "
+                activeClass="scale-125 transition-transform duration-300 "
                 spy={true}
                 smooth={true}
                 offset={-50}
@@ -130,7 +130,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={closeMenu}
-                activeClass="dark:text-primary text-primary "
+                activeClass="scale-125 transition-transform duration-300 "
                 spy={true}
                 smooth={true}
                 offset={-50}
