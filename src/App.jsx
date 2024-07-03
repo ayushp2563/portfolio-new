@@ -5,6 +5,9 @@ import Home from "./Pages/Home/HomeScreen";
 import Navbar from "./Pages/Home/Navbar";
 import HeroSection from "./Pages/Home/HeroSection";
 import Darkmode from "./Pages/Darkmode";
+import { Analytics } from "@vercel/analytics/react";
+
+inject();
 
 function App() {
   return (
