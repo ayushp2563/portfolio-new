@@ -68,7 +68,6 @@
       "src": "https://res.cloudinary.com/db4ayioxs/image/upload/v1718697194/uploads/1718697193750-Screenshot%202024-04-28%20152652.png.png",
       "title": "Image to URL",
       "description": "It generates URL for images with the help of cloudinary.",
-<<<<<<< HEAD
       "liveUrl": "https://imagetoourl.vercel.app/",
       "tags": ["React JS", "Tailwind CSS", "Axios","Cloudinary"]
     },
@@ -80,16 +79,6 @@
       "liveUrl": "https://media-morph-pro.vercel.app/",
       "githubUrl": "https://github.com/ayushp2563/MediaMorphPro/",
       "tags": ["React JS", "Tailwind CSS", "Axios","Cloudinary"]
-=======
-      "url": "https://imagetoourl.vercel.app/"
-    },
-    {
-      "id": "6",
-      "src": "https://res.cloudinary.com/db4ayioxs/image/upload/v1728057206/image/upload/Screenshot_2024-10-04_212211_kavyda.png",
-      "title": "Media Morph Pro",
-      "description": "SaaS website with various tools.",
-      "url": "https://media-morph-pro.vercel.app/"
->>>>>>> e2696a1ce9a54ebe3fe548d6b97dfafbd05e75ed
     }
   ]
 }
