@@ -22,44 +22,63 @@
       "id": "4",
       "src": "./img/feather-pen-1.png",
       "title": "Frameworks",
-      "description": "ReactJS | Bootstrap |  Material UI | Tailwind CSS"
+      "description": "Next JS | ReactJS | Bootstrap |  Material UI | Tailwind CSS | Shadcn UI | "
     }
-  ],
+  ], 
   "portfolio": [
+    
     {
       "id": "1",
       "src": "./img/TODO-List.png",
       "title": "TODO List",
       "description": "It is my initial project in React JS. Simple TODO List created with update and delete task feature.",
-      "url": "https://github.com/ayushp2563/TODO-LIST"
+      "githubUrl": "https://github.com/ayushp2563/TODO-LIST",
+      "liveUrl": "https://fsd-todolist.vercel.app/",
+      "tags": ["React JS", "Bootstrap", "Firebase"]
+
     },
     {
       "id": "2",
       "src": "./img/restcountries.png",
       "title": "REST COUNTRIES API",
       "description": "It shows 4 continent's country information with the help of rest countries API.",
-      "url": "https://github.com/ayushp2563/rest-countries-api"
+      "githubUrl": "https://github.com/ayushp2563/rest-countries-api",
+      "liveUrl": "https://rest-countries-api-tawny.vercel.app/",
+      "tags": ["React JS", "Tailwind CSS", "Material UI"]
     },
     {
       "id": "3",
       "src": "./img/instagram.png",
       "title": "Instagram Clone",
       "description": "It is INSTAGRAM's frontend part.Made using React JS to practise advanced skills in React JS.",
-      "url": "https://github.com/ayushp2563/instafrontend"
+      "githubUrl": "https://github.com/ayushp2563/instafrontend",
+      "liveUrl": "https://instafrontend-rust.vercel.app/",
+      "tags": ["React JS", "Tailwind CSS", "Material UI"]
     },
     {
       "id": "4",
       "src": "./img/travellog.png",
       "title": "TRAVELLOG",
       "description": "It is a travel website where user can select the date, time, and total persons and can check the availability of the hotels. It's a frontend part made with React JS.",
-      "url": "https://github.com/ayushp2563/travellog"
+      "githubUrl": "https://github.com/ayushp2563/travellog",
+      "tags": ["React JS", "Tailwind CSS", "Material UI"]
     },
     {
       "id": "5",
       "src": "https://res.cloudinary.com/db4ayioxs/image/upload/v1718697194/uploads/1718697193750-Screenshot%202024-04-28%20152652.png.png",
       "title": "Image to URL",
       "description": "It generates URL for images with the help of cloudinary.",
-      "url": "https://imagetoourl.vercel.app/"
+      "liveUrl": "https://imagetoourl.vercel.app/",
+      "tags": ["React JS", "Tailwind CSS", "Axios","Cloudinary"]
+    },
+    {
+      "id": "6",
+      "src": "https://res.cloudinary.com/db4ayioxs/image/upload/v1736898960/image/upload/Screenshot_2025-01-14_185427_tkmt60.png",
+      "title": "Media Morph Pro",
+      "description": "SaaS with various AI tools for image and videos.",
+      "liveUrl": "https://media-morph-pro.vercel.app/",
+      "githubUrl": "https://github.com/ayushp2563/MediaMorphPro/",
+      "tags": ["React JS", "Tailwind CSS", "Axios","Cloudinary"]
     }
   ]
 }
