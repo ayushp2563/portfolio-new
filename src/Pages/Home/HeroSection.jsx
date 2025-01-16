@@ -78,7 +78,7 @@ export default function HeroSection() {
   return (
     <section
       id="HeroSection"
-      className=" flex md:flex md:flex-row flex-col gap-8 pb-20 pt-36 md:pt-60 px-4 md:px-28 items-center justify-center "
+      className=" flex md:flex md:flex-row flex-col gap-8 pb-20 pt-28 md:pt-44 px-4 md:px-28 items-center justify-center "
     >
       <div className="flex flex-col md:flex md:flex-row items-start gap-8 md:order-1">
         <div className="flex justify-center md:order-2">
