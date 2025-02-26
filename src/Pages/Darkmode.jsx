@@ -1,49 +1,95 @@
-import React from "react";
-import { useState, useEffect } from "react";
-import { FaMoon, FaSun } from "react-icons/fa";
+// import React from "react";
+// import { useState, useEffect } from "react";
+// import { FaMoon, FaSun } from "react-icons/fa";
+
+// const Darkmode = () => {
+//   const [theme, setTheme] = useState(null);
+
+//   useEffect(() => {
+//     if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+//       setTheme("dark");
+//     } else {
+//       setTheme("light");
+//     }
+//   }, []);
+
+//   useEffect(() => {
+//     if (theme === "dark") {
+//       document.documentElement.classList.add("dark");
+//     } else {
+//       document.documentElement.classList.remove("dark");
+//     }
+//   }, [theme]);
+
+//   const handleThemeSwitch = () => {
+//     setTheme(theme === "dark" ? "light" : "dark");
+//   };
+
+//   return (
+//     <button
+//       className="flex items-center justify-center content-center  
+//       "
+//       onClick={handleThemeSwitch}
+//     >
+//       {theme === "dark" ? (
+//         <>
+//           <FaSun className="mr-2 text-yellow-400" />
+//           <span>Light Mode</span>
+//         </>
+//       ) : (
+//         <>
+//           <FaMoon className="mr-2 text-gray-600" />
+//           <span>Dark Mode</span>
+//         </>
+//       )}
+//     </button>
+//   );
+// };
+
+// export default Darkmode;
+"use client"
+
+import { useState, useEffect } from "react"
+import { Moon, Sun } from "lucide-react"
 
 const Darkmode = () => {
-  const [theme, setTheme] = useState(null);
+  const [theme, setTheme] = useState < "light" | "dark" > ("light")
 
   useEffect(() => {
-    if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
-      setTheme("dark");
-    } else {
-      setTheme("light");
+    // Check for user's preference in localStorage
+    const savedTheme = localStorage.getItem("theme")
+    if (savedTheme) {
+      setTheme(savedTheme)
+    } else if (window.matchMedia("(prefers-color-scheme: dark)").matches) {
+      setTheme("dark")
     }
-  }, []);
+  }, [])
 
   useEffect(() => {
+    // Update class on document element
     if (theme === "dark") {
-      document.documentElement.classList.add("dark");
+      document.documentElement.classList.add("dark")
     } else {
-      document.documentElement.classList.remove("dark");
+      document.documentElement.classList.remove("dark")
     }
-  }, [theme]);
+    // Save user's preference to localStorage
+    localStorage.setItem("theme", theme)
+  }, [theme])
 
   const handleThemeSwitch = () => {
-    setTheme(theme === "dark" ? "light" : "dark");
-  };
+    setTheme((prevTheme) => (prevTheme === "dark" ? "light" : "dark"))
+  }
 
   return (
     <button
-      className="flex items-center justify-center content-center  
-      "
+      className="flex items-center justify-center p-2 rounded-full bg-gray-200 dark:bg-gray-800 text-gray-800 dark:text-gray-200 transition-colors duration-200 hover:bg-gray-300 dark:hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-primary"
       onClick={handleThemeSwitch}
+      aria-label={theme === "dark" ? "Switch to light mode" : "Switch to dark mode"}
     >
-      {theme === "dark" ? (
-        <>
-          <FaSun className="mr-2 text-yellow-400" />
-          <span>Light Mode</span>
-        </>
-      ) : (
-        <>
-          <FaMoon className="mr-2 text-gray-600" />
-          <span>Dark Mode</span>
-        </>
-      )}
+      {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
     </button>
-  );
-};
+  )
+}
 
-export default Darkmode;
+export default Darkmode
+

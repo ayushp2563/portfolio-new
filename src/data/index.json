@@ -1,28 +1,44 @@
 {
   "skills": [
     {
-      "id": "1",
-      "src": "./img/product-chain-1.png",
-      "title": "Front-End",
-      "description": "HTML | CSS | JavaScript"
+      "title": "Web Development",
+      "description": "Proficient in HTML, CSS, JavaScript, and various frameworks.",
+      "technologies": ["HTML", "CSS", "JavaScript", "React", "Next.js"]
     },
     {
-      "id": "2",
-      "src": "./img/tag-1.png",
-      "title": "Back-End",
-      "description": "NodeJS | ExpressJS"
+      "title": "Machine Learning",
+      "description": "Experienced in building and deploying machine learning models.",
+      "technologies": ["Python", "NumPy", "Pandas", "Scikit-learn"]
     },
     {
-      "id": "3",
-      "src": "./img/feather-pen-2.png",
-      "title": "Database",
-      "description": "Firebase | MySQL | MongoDB"
+      "title": "Data Engineering",
+      "description": "Skilled in data warehousing, ETL processes, and data visualization.",
+      "technologies": ["SQL", "Python", "Spark", "Hadoop"]
     },
     {
-      "id": "4",
-      "src": "./img/feather-pen-1.png",
-      "title": "Frameworks",
-      "description": "Next JS | ReactJS | Bootstrap |  Material UI | Tailwind CSS | Shadcn UI | "
+      "title": "Cloud Computing",
+      "description": "Familiar with cloud platforms like AWS, Azure, and GCP.",
+      "technologies": ["AWS", "Azure", "GCP", "Docker", "Kubernetes"]
+    },
+    {
+      "title": "Backend Development",
+      "description": "Experienced in building RESTful APIs and microservices.",
+      "technologies": ["Node.js", "Express.js", "Python", "Django", "Flask"]
+    },
+    {
+      "title": "Frontend Development",
+      "description": "Proficient in building responsive and user-friendly interfaces.",
+      "technologies": ["React", "Next.js", "HTML", "CSS", "JavaScript"]
+    },
+    {
+      "title": "Cybersecurity",
+      "description": "Knowledge of security best practices and common vulnerabilities.",
+      "technologies": ["OWASP", "CISSP", "Security+", "Ethical Hacking"]
+    },
+    {
+      "title": "DevOps",
+      "description": "Experienced in automating infrastructure and deployment processes.",
+      "technologies": ["Docker", "Kubernetes", "CI/CD", "Terraform", "Ansible"]
     }
   ], 
   "portfolio": [
