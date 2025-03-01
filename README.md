@@ -20,7 +20,6 @@ This portfolio is built using:
 - Frontend: React.js, Next.js
 - Styling: Tailwind CSS
 - Deployment: Vercel
-- Analytics: [Your analytics tool if applicable]
 
 ## Local Development
 
