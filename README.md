@@ -27,10 +27,10 @@ To run this project locally:
 
 ```bash
 # Clone the repository
-git clone [your-repo-link]
+git clone https://github.com/ayushp2563/portfolio-new
 
 # Navigate to the project directory
-cd portfolio
+cd portfolio-new
 
 # Install dependencies
 npm install
