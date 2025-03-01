@@ -1,28 +1,54 @@
-# Personal Portfolio - Ayush Prajapati  
+# Ayush Prajapati - Personal Portfolio
 
-Welcome to my personal portfolio! 🚀  
+Welcome to the repository of my personal portfolio website. Visit the live site at [prajapatiayush.vercel.app](https://prajapatiayush.vercel.app).
 
-🔗 **Live Website:** [prajapatiayush.vercel.app](https://prajapatiayush.vercel.app)  
+## Overview
 
-## 📌 About  
-This is my personal portfolio website where I showcase my skills, projects, and experiences. It serves as a digital resume and a platform to highlight my work as a developer.  
+This portfolio showcases my skills, projects, and professional experience as a developer. It serves as a central hub for anyone interested in my work or considering collaboration opportunities.
 
-## 🛠️ Tech Stack  
-- **Frontend:** HTML, CSS, JavaScript, React.js (or Next.js if applicable)  
-- **Styling:** Tailwind CSS / Bootstrap / SCSS  
-- **Hosting:** Vercel  
+## Features
 
-## 🎨 Features  
-✔️ Modern UI/UX Design  
-✔️ Responsive & Mobile-Friendly  
-✔️ Projects Showcase  
-✔️ Contact Form  
-✔️ Resume Download  
+- **Professional Introduction**: Learn about my background, skills, and career journey
+- **Project Showcase**: Detailed presentations of my key projects with descriptions, technologies used, and live demos
+- **Skills & Technologies**: Visual representation of my technical expertise
+- **Resume**: Access to my professional resume
+- **Contact Information**: Multiple ways to connect with me
 
-## 🚀 Getting Started  
-If you'd like to run this project locally, follow these steps:  
+## Tech Stack
 
-### 1️⃣ Clone the repository  
+This portfolio is built using:
+- Frontend: React.js, Next.js
+- Styling: Tailwind CSS
+- Deployment: Vercel
+- Analytics: [Your analytics tool if applicable]
+
+## Local Development
+
+To run this project locally:
+
 ```bash
-git clone https://github.com/your-username/your-portfolio.git
-cd your-portfolio
+# Clone the repository
+git clone [your-repo-link]
+
+# Navigate to the project directory
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+```
+
+The site will be available at `localhost:3000`.
+
+## Contact
+
+Feel free to reach out to me through:
+- Email: [ayushprajapati2563@gmail.com]
+- LinkedIn: [https://www.linkedin.com/in/ayush-p-prajapati/]
+- GitHub: [https://github.com/ayushp2563]
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
