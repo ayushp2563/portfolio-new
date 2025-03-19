@@ -95,6 +95,14 @@
       "liveUrl": "https://media-morph-pro.vercel.app/",
       "githubUrl": "https://github.com/ayushp2563/MediaMorphPro/",
       "tags": ["React JS", "Tailwind CSS", "Axios","Cloudinary"]
+    },
+    {
+      "id": "7",
+      "src": "https://res.cloudinary.com/db4ayioxs/image/upload/v1742399531/image/upload/Screenshot_2025-03-19_115103_v73mii.png",
+      "title": "One Tap Link",
+      "description": "SaaS with various AI tools for image and videos.",
+      "liveUrl": "https://onetaplink.vercel.app/",
+      "tags": ["Next JS", "Shadcn", "Supabase"]
     }
   ]
 }
