@@ -40,23 +40,20 @@
       "description": "Experienced in automating infrastructure and deployment processes.",
       "technologies": ["Docker", "Kubernetes", "CI/CD", "Terraform", "Ansible"]
     }
-  ], 
+  ],
   "portfolio": [
-    
-    
     {
       "id": "1",
-      "src": "https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1751487588/umuz0mv8htvyl1zfifhu.jpg",
+      "src": "./img/salarytracker.png",
       "title": "Salary Tracker",
       "description": "Personal tool to track salary and earning history.",
       "githubUrl": "https://github.com/ayushp2563/salary-tracker",
       "liveUrl": "https://salarytracker.vercel.app/",
       "tags": ["React JS", "Tailwind CSS", "Supabase"]
-
     },
     {
       "id": "2",
-      "src": "https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1751488589/gcfm8eaacvo3k6oemksy.jpg",
+      "src": "./img/onetaplink.png",
       "title": "One Tap Link",
       "description": "A tool to create and manage links for your social media profiles.",
       "githubUrl": "https://github.com/ayushp2563/pdims",
@@ -65,31 +62,30 @@
     },
     {
       "id": "3",
-      "src": "https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1751488822/qkfxduvj7sn2w7jguisl.jpg",
+      "src": "./img/jobapplicationgenerator.png",
       "title": "Job Application Generator",
       "description": "AI-powered tool that crafts tailored resumes and cover letters from job descriptions in seconds.",
       "githubUrl": "https://github.com/ayushp2563/job-application-generator",
       "liveUrl": "https://job-application-generator.streamlit.app/",
       "tags": ["Python", "Neon DB", "Streamlit", "Langchain", "Groq Cloud"]
-
     },
 
     {
       "id": "4",
-      "src": "https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1751488886/phwjrhzx9juehtxwjzn7.jpg",
+      "src": "./img/imagetourl.png",
       "title": "Image to URL",
       "description": "It generates URL for images with the help of cloudinary.",
       "liveUrl": "https://imagetoourl.vercel.app/",
-      "tags": ["React JS", "Tailwind CSS", "Axios","Cloudinary"]
+      "tags": ["React JS", "Tailwind CSS", "Axios", "Cloudinary"]
     },
     {
       "id": "5",
-      "src": "https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1751488927/flfegbvdnayfgdvaj8x5.jpg",
+      "src": "./img/mediamorphpro.png",
       "title": "Media Morph Pro",
       "description": "SaaS with various AI tools for image and videos.",
       "liveUrl": "https://media-morph-pro.vercel.app/",
       "githubUrl": "https://github.com/ayushp2563/MediaMorphPro/",
-      "tags": ["React JS", "Tailwind CSS", "Axios","Cloudinary"]
+      "tags": ["React JS", "Tailwind CSS", "Axios", "Cloudinary"]
     },
     {
       "id": "9",
@@ -99,7 +95,6 @@
       "githubUrl": "https://github.com/ayushp2563/TODO-LIST",
       "liveUrl": "https://fsd-todolist.vercel.app/",
       "tags": ["React JS", "Bootstrap", "Firebase"]
-
     },
     {
       "id": "8",
@@ -127,6 +122,5 @@
       "githubUrl": "https://github.com/ayushp2563/travellog",
       "tags": ["React JS", "Tailwind CSS", "Material UI"]
     }
-  
   ]
 }

@@ -12,7 +12,7 @@ export function ProjectCard({ title, description, tags, githubUrl, liveUrl, imag
     <div className="bg-gradient-to-br from-[#f8fafc] to-[#f1f5f9] dark:from-[#1e1e1e] dark:to-[#2b2b2c] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
       <div className="relative">
         <img src={image || "/placeholder.svg"} alt={title} className="w-full h-48 object-cover" />
-        <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent" />
+        <div className="absolute inset-0 " />
       </div>
       <div className="p-6">
         <h3 className="text-xl font-bold mb-2 text-gray-900 dark:text-white">{title}</h3>
