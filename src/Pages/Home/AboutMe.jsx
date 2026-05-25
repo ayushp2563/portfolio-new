@@ -100,18 +100,18 @@ export default function AboutMe() {
         </div>
 
         {/* Statistics */}
-        <div className="flex flex-wrap gap-8 mt-4">
-          <div>
-            <div className="text-3xl font-bold text-primary">10+</div>
-            <div className="text-sm text-gray-600 dark:text-gray-300">Projects Completed</div>
+        <div className="flex flex-wrap gap-6 mt-4">
+          <div className="bg-white/30 dark:bg-zinc-900/20 px-4 py-2.5 rounded-xl border border-white/40 dark:border-zinc-800/40 shadow-sm transition-transform duration-300 hover:scale-105">
+            <div className="text-2xl font-extrabold text-primary">30%</div>
+            <div className="text-[9px] font-bold uppercase tracking-wider text-slate-500 dark:text-zinc-400">Latency Reduction</div>
           </div>
-          {/* <div>
-            <div className="text-3xl font-bold text-primary">15+</div>
-            <div className="text-sm text-gray-600 dark:text-gray-300">ML Models Deployed</div>
-          </div> */}
-          <div>
-            <div className="text-3xl font-bold text-primary">10+</div>
-            <div className="text-sm text-gray-600 dark:text-gray-300">Tech Stack</div>
+          <div className="bg-white/30 dark:bg-zinc-900/20 px-4 py-2.5 rounded-xl border border-white/40 dark:border-zinc-800/40 shadow-sm transition-transform duration-300 hover:scale-105">
+            <div className="text-2xl font-extrabold text-primary">85%</div>
+            <div className="text-[9px] font-bold uppercase tracking-wider text-slate-500 dark:text-zinc-400">Time Savings</div>
+          </div>
+          <div className="bg-white/30 dark:bg-zinc-900/20 px-4 py-2.5 rounded-xl border border-white/40 dark:border-zinc-800/40 shadow-sm transition-transform duration-300 hover:scale-105">
+            <div className="text-2xl font-extrabold text-primary">98%</div>
+            <div className="text-[9px] font-bold uppercase tracking-wider text-slate-500 dark:text-zinc-400">RAG Accuracy</div>
           </div>
         </div>
       </div>

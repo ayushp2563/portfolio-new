@@ -178,7 +178,7 @@ const HeroSection = () => {
             </div>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-              Passionate about building intelligent web applications, scaling generative AI products, and designing next-generation interactive UIs.
+              Full Stack AI Engineer specializing in scaling high-performance generative AI pipelines, optimizing RAG architectures for 30% latency reduction, and designing systems benchmarked to handle high-concurrency request loads.
             </p>
 
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start ">
