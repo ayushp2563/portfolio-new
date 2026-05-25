@@ -1,44 +1,29 @@
 {
   "skills": [
     {
-      "title": "Web Development",
-      "description": "Proficient in HTML, CSS, JavaScript, and various frameworks.",
-      "technologies": ["HTML", "CSS", "JavaScript", "React", "Next.js"]
+      "title": "Agentic AI & LLMs",
+      "description": "Developing intelligent conversational chatbots, multi-agent frameworks, and generative AI pipelines using state-of-the-art vector stores and LLM systems.",
+      "technologies": ["LangChain", "OpenAI API", "Vector Databases", "Generative AI", "Streamlit"]
     },
     {
-      "title": "Machine Learning",
-      "description": "Experienced in building and deploying machine learning models.",
-      "technologies": ["Python", "NumPy", "Pandas", "Scikit-learn"]
+      "title": "Enterprise Machine Learning",
+      "description": "Training, tuning, validating, and serving robust neural network and machine learning models under enterprise conditions.",
+      "technologies": ["Python", "FastAPI", "PyTorch", "NumPy", "Pandas", "Scikit-Learn"]
     },
     {
-      "title": "Data Engineering",
-      "description": "Skilled in data warehousing, ETL processes, and data visualization.",
-      "technologies": ["SQL", "Python", "Spark", "Hadoop"]
+      "title": "Creative Frontend Engineering",
+      "description": "Engineering fluid, visually stunning, high-performance web layouts with smooth animations, layouts, responsiveness, and micro-interactions.",
+      "technologies": ["React JS", "Next JS", "Framer Motion", "Tailwind CSS", "AOS"]
     },
     {
-      "title": "Cloud Computing",
-      "description": "Familiar with cloud platforms like AWS, Azure, and GCP.",
-      "technologies": ["AWS", "Azure", "GCP", "Docker", "Kubernetes"]
+      "title": "Robust Backend Systems",
+      "description": "Architecting secure, scalable RESTful microservices and modern cloud databases with real-time sync capabilities.",
+      "technologies": ["Node.js", "Express.js", "Supabase", "PostgreSQL", "Neon DB"]
     },
     {
-      "title": "Backend Development",
-      "description": "Experienced in building RESTful APIs and microservices.",
-      "technologies": ["Node.js", "Express.js", "Python", "Django", "Flask"]
-    },
-    {
-      "title": "Frontend Development",
-      "description": "Proficient in building responsive and user-friendly interfaces.",
-      "technologies": ["React", "Next.js", "HTML", "CSS", "JavaScript"]
-    },
-    {
-      "title": "Cybersecurity",
-      "description": "Knowledge of security best practices and common vulnerabilities.",
-      "technologies": ["OWASP", "CISSP", "Security+", "Ethical Hacking"]
-    },
-    {
-      "title": "DevOps",
-      "description": "Experienced in automating infrastructure and deployment processes.",
-      "technologies": ["Docker", "Kubernetes", "CI/CD", "Terraform", "Ansible"]
+      "title": "Modern DevOps & Cloud",
+      "description": "Automating deployment workflows, managing cloud infrastructure containerization, and scaling services smoothly.",
+      "technologies": ["Docker", "AWS", "Vercel", "Git & GitHub", "CI/CD"]
     }
   ],
   "portfolio": [
@@ -49,7 +34,8 @@
       "description": "Personal tool to track salary and earning history.",
       "githubUrl": "https://github.com/ayushp2563/salary-tracker",
       "liveUrl": "https://salarytracker.vercel.app/",
-      "tags": ["React JS", "Tailwind CSS", "Supabase"]
+      "tags": ["React JS", "Tailwind CSS", "Supabase"],
+      "category": "Web Apps"
     },
     {
       "id": "2",
@@ -58,7 +44,8 @@
       "description": "A tool to create and manage links for your social media profiles.",
       "githubUrl": "https://github.com/ayushp2563/pdims",
       "liveUrl": "https://onetaplink.vercel.app/",
-      "tags": ["Next JS", "Shadcn", "Supabase"]
+      "tags": ["Next JS", "Shadcn", "Supabase"],
+      "category": "Web Apps"
     },
     {
       "id": "3",
@@ -67,60 +54,35 @@
       "description": "AI-powered tool that crafts tailored resumes and cover letters from job descriptions in seconds.",
       "githubUrl": "https://github.com/ayushp2563/job-application-generator",
       "liveUrl": "https://job-application-generator.streamlit.app/",
-      "tags": ["Python", "Neon DB", "Streamlit", "Langchain", "Groq Cloud"]
+      "tags": ["Python", "Neon DB", "Streamlit", "Langchain", "Groq Cloud"],
+      "category": "AI & Agents"
     },
-
     {
       "id": "4",
-      "src": "./img/imagetourl.png",
-      "title": "Image to URL",
-      "description": "It generates URL for images with the help of cloudinary.",
-      "liveUrl": "https://imagetoourl.vercel.app/",
-      "tags": ["React JS", "Tailwind CSS", "Axios", "Cloudinary"]
+      "src": "./img/canadaprmodel.png",
+      "title": "Canada PR Chatbot",
+      "description": "An intelligent conversational AI designed to assist users with Canadian Permanent Residency (PR) processes, eligibility queries, document checklists, and immigration pathways.",
+      "githubUrl": "https://github.com/ayushp2563/canadapr",
+      "tags": ["TypeScript", "Next JS", "LangChain", "OpenAI API", "Tailwind CSS"],
+      "category": "AI & Agents"
     },
     {
       "id": "5",
-      "src": "./img/mediamorphpro.png",
-      "title": "Media Morph Pro",
-      "description": "SaaS with various AI tools for image and videos.",
-      "liveUrl": "https://media-morph-pro.vercel.app/",
-      "githubUrl": "https://github.com/ayushp2563/MediaMorphPro/",
-      "tags": ["React JS", "Tailwind CSS", "Axios", "Cloudinary"]
-    },
-    {
-      "id": "9",
-      "src": "./img/TODO-List.png",
-      "title": "TODO List",
-      "description": "It is my initial project in React JS. Simple TODO List created with update and delete task feature.",
-      "githubUrl": "https://github.com/ayushp2563/TODO-LIST",
-      "liveUrl": "https://fsd-todolist.vercel.app/",
-      "tags": ["React JS", "Bootstrap", "Firebase"]
-    },
-    {
-      "id": "8",
-      "src": "./img/restcountries.png",
-      "title": "REST COUNTRIES API",
-      "description": "It shows 4 continent's country information with the help of rest countries API.",
-      "githubUrl": "https://github.com/ayushp2563/rest-countries-api",
-      "liveUrl": "https://rest-countries-api-tawny.vercel.app/",
-      "tags": ["React JS", "Tailwind CSS", "Material UI"]
-    },
-    {
-      "id": "7",
-      "src": "./img/instagram.png",
-      "title": "Instagram Clone",
-      "description": "It is INSTAGRAM's frontend part.Made using React JS to practise advanced skills in React JS.",
-      "githubUrl": "https://github.com/ayushp2563/instafrontend",
-      "liveUrl": "https://instafrontend-rust.vercel.app/",
-      "tags": ["React JS", "Tailwind CSS", "Material UI"]
+      "src": "./img/enterprise-ai.png",
+      "title": "Enterprise AI",
+      "description": "A robust, enterprise-grade AI system leveraging machine learning models to automate workflow processes, analyze business intelligence data, and generate actionable insights.",
+      "githubUrl": "https://github.com/ayushp2563/enterprise_ai",
+      "tags": ["Python", "FastAPI", "React JS", "PyTorch", "Docker"],
+      "category": "AI & Agents"
     },
     {
       "id": "6",
-      "src": "./img/travellog.png",
-      "title": "TRAVELLOG",
-      "description": "It is a travel website where user can select the date, time, and total persons and can check the availability of the hotels. It's a frontend part made with React JS.",
-      "githubUrl": "https://github.com/ayushp2563/travellog",
-      "tags": ["React JS", "Tailwind CSS", "Material UI"]
+      "src": "./img/prelude.png",
+      "title": "Prelude",
+      "description": "A native macOS menu bar app that fetches calendar meetings and plays custom alarms before they start. Features time-based alarm scheduling triggers and seamless calendar syncing.",
+      "githubUrl": "https://github.com/ayushp2563/prelude",
+      "tags": ["Swift", "SwiftUI", "EventKit", "macOS SDK", "UserNotifications"],
+      "category": "macOS Apps"
     }
   ]
 }

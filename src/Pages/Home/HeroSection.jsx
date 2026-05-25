@@ -38,21 +38,21 @@ const TypeWriter = ({ words, speed = 100 }) => {
 };
 
 const TechBadge = ({ children }) => (
-  <span className="px-3 py-2 text-sm font-medium rounded-full bg-primary/10 text-primary dark:bg-primary/25 dark:text-white">
+  <span className="px-3.5 py-1.5 text-xs font-semibold rounded-[1rem] bg-slate-50 dark:bg-zinc-900 border border-slate-200/60 dark:border-zinc-800 text-slate-600 dark:text-zinc-400 transition-colors duration-300 hover:border-primary/30 hover:text-primary">
     {children}
   </span>
 );
 
 const EarthGlobe = () => {
   const skills = [
-    { name: 'React', category: 'Frontend', level: 'Advanced' },
-    { name: 'Python', category: 'Backend', level: 'Expert' },
-    { name: 'Node.js', category: 'Backend', level: 'Advanced' },
-    { name: 'NumPy', category: 'AI/ML', level: 'Intermediate' },
-    { name: 'MongoDB', category: 'Database', level: 'Advanced' },
-    { name: 'Next JS', category: 'Frontend', level: 'Intermediate' },
+    { name: 'Next.js', category: 'Frontend', level: 'Advanced' },
+    { name: 'Python', category: 'Backend/AI', level: 'Expert' },
+    { name: 'LangChain', category: 'AI/LLM', level: 'Expert' },
+    { name: 'OpenAI API', category: 'AI/LLM', level: 'Advanced' },
+    { name: 'FastAPI', category: 'Backend', level: 'Advanced' },
+    { name: 'PyTorch', category: 'AI/ML', level: 'Intermediate' },
     { name: 'Docker', category: 'DevOps', level: 'Advanced' },
-    { name: 'JavaScript', category: 'Frontend', level: 'Advanced' }
+    { name: 'Tailwind CSS', category: 'Frontend', level: 'Expert' }
   ];
 
   const [rotation, setRotation] = useState(0);
@@ -155,10 +155,10 @@ const EarthGlobe = () => {
 
 const HeroSection = () => {
   const roles = [
+    "AI Agent Systems Engineer",
     "Full Stack Developer",
-    "AI/ML Enthusiast",
-    "Problem Solver",
-    "Tech Explorer"
+    "Generative AI Specialist",
+    "Creative Frontend Engineer"
   ];
 
   return (
@@ -178,21 +178,20 @@ const HeroSection = () => {
             </div>
 
             <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto lg:mx-0">
-              Passionate about building intelligent web applications and exploring the frontiers of AI/ML.
-              Turning complex problems into elegant solutions.
+              Passionate about building intelligent web applications, scaling generative AI products, and designing next-generation interactive UIs.
             </p>
 
             <div className="flex flex-wrap gap-3 justify-center lg:justify-start ">
               <TechBadge className="dark:text-white">Python</TechBadge>
-              <TechBadge className="dark:text-white">NumPy</TechBadge>
-              <TechBadge className="dark:text-white">React</TechBadge>
-              <TechBadge className="dark:text-white">Node.js</TechBadge>
-              <TechBadge className="dark:text-white">Machine Learning</TechBadge>
+              <TechBadge className="dark:text-white">Next.js</TechBadge>
+              <TechBadge className="dark:text-white">Generative AI</TechBadge>
+              <TechBadge className="dark:text-white">LangChain</TechBadge>
+              <TechBadge className="dark:text-white">Docker</TechBadge>
             </div>
 
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <button
-                className="inline-flex items-center gap-2 px-6 py-3 font-medium rounded-lg bg-primary text-primary-foreground hover:bg-primary/90 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 font-semibold rounded-[1.5rem] bg-primary text-primary-foreground hover:opacity-95 shadow-md shadow-primary/10 transition-all duration-300 hover:-translate-y-0.5 active:scale-98"
                 onClick={() => window.open("https://drive.google.com/file/d/1dWS8zW3xx1y9CaIItp_lBsg-psYrCUN7/view?usp=sharing", "_blank")}
               >
                 View Resume
@@ -201,15 +200,15 @@ const HeroSection = () => {
 
               <div className="flex items-center gap-4">
                 <a href="https://github.com/ayushp2563" target="_blank" rel="noopener noreferrer"
-                  className="p-2 rounded-full hover:bg-muted transition-colors">
+                  className="p-2.5 rounded-full hover:bg-muted transition-colors text-slate-600 dark:text-zinc-400 hover:text-primary dark:hover:text-white active:scale-90">
                   <Github className="w-6 h-6" />
                 </a>
                 <a href="https://linkedin.com/in/ayush-p-prajapati" target="_blank" rel="noopener noreferrer"
-                  className="p-2 rounded-full hover:bg-muted transition-colors">
+                  className="p-2.5 rounded-full hover:bg-muted transition-colors text-slate-600 dark:text-zinc-400 hover:text-primary dark:hover:text-white active:scale-90">
                   <Linkedin className="w-6 h-6" />
                 </a>
                 <a href="https://twitter.com/ayushp2563" target="_blank" rel="noopener noreferrer"
-                  className="p-2 rounded-full hover:bg-muted transition-colors">
+                  className="p-2.5 rounded-full hover:bg-muted transition-colors text-slate-600 dark:text-zinc-400 hover:text-primary dark:hover:text-white active:scale-90">
                   <Twitter className="w-6 h-6" />
                 </a>
               </div>
@@ -218,16 +217,16 @@ const HeroSection = () => {
 
           {/* Right Column - Globe */}
           <div className="hidden lg:block relative h-[500px]">
-            <Card className="absolute inset-0 overflow-hidden">
-              <CardContent className="p-0 h-full">
+            <div className="absolute inset-0 rounded-[2.5rem] bg-white/40 dark:bg-zinc-950/20 backdrop-blur-2xl border border-white/40 dark:border-zinc-800/40 shadow-[0_20px_50px_rgba(0,0,0,0.08)] overflow-hidden">
+              <div className="p-0 h-full">
                 <div className="h-full bg-gradient-to-br from-primary/5 to-transparent">
                   <EarthGlobe />
                 </div>
-              </CardContent>
-            </Card>
+              </div>
+            </div>
 
             {/* Background decoration */}
-            <div className="absolute -inset-4 -z-10 bg-gradient-to-r from-primary/20 via-primary/5 to-transparent blur-2xl opacity-50" />
+            <div className="absolute -inset-4 -z-10 bg-gradient-to-r from-primary/10 via-primary/3 to-transparent blur-3xl opacity-60" />
           </div>
         </div>
       </div>
