@@ -192,7 +192,7 @@ const HeroSection = () => {
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <button
                 className="inline-flex items-center gap-2 px-6 py-3 font-semibold rounded-[1.5rem] bg-primary text-primary-foreground hover:opacity-95 shadow-md shadow-primary/10 transition-all duration-300 hover:-translate-y-0.5 active:scale-98"
-                onClick={() => window.open("https://drive.google.com/file/d/1dWS8zW3xx1y9CaIItp_lBsg-psYrCUN7/view?usp=sharing", "_blank")}
+                onClick={() => window.open("https://drive.google.com/file/d/1i6_JBFZ_88ySxzlcGXtMURVXuWfbHv_k/view?usp=sharing", "_blank")}
               >
                 View Resume
                 <ArrowUpRight className="w-4 h-4" />
